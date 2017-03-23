@@ -1,0 +1,80 @@
+<button id="hide">hide</button>
+<h1>New In</h1>
+<p style="color:#00FF7F !important">
+  <a href="shoes.html">shoes</a></p>
+
+<style>
+  body {
+    background: linear-gradient(90deg,white,gray,white);
+  }
+  p {
+    border: 8px solid pink;
+    margin: left;
+    text-align:center;
+  }
+  h1 {
+     background: blue;
+     border: 8px solid lightblue;
+     color:	#EE82EE;
+     padding: 10px;
+     font-family:verdana;
+     font-size:85px;
+     text-align:center;
+  }
+  h1:hover{
+    background-color:darkseagreen;
+  }
+  p {
+      background:#F08080;
+      font-size: 65px;
+      padding: 2px;
+      margin: 50px;
+      font-family:courier;
+      color:red;
+      
+  }
+  p:hover{
+    background-color:#48D1CC;
+  }
+  img{
+    width:170px;
+    margin:auto; 
+  }
+  a{
+    text-decoration:none;
+    color:#00FF7F;
+    
+  }
+  #gucci-shoes {
+    text-align:center;
+  }
+  #gucci-shoes img {
+    height:400px;
+    width:auto;
+    
+  }
+</style>
+<div id="gucci-shoes">
+<a href="https://www.gucci.com/us/en/ca/women/womens-shoes-c-women-shoes">
+
+<img src="https://media.gucci.com/style/DarkGray_South_0_160_316x316/1458034218/431917_A38G0_9064_001_100_0000_Light-Ace-embroidered-low-top-sneaker.jpg"/> 
+  </a>
+</div>
+
+<iframe style="display:none" src="https://www.youtube.com/embed/FgbFquhbhYA?autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+        alert("For more shoes click ok.");
+    });
+    $("#hide").click(function(){
+    $("p").hide();
+});
+
+$("#show").click(function(){
+    $("p").show();
+});
+});
+</script>

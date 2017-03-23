@@ -1,0 +1,33 @@
+body {
+    background:gray;
+ }
+ p {
+     border: 8px red;
+     margin: left;
+ }
+ h1 {
+     background: crimson;
+     border: 8px red;
+     color:aqua;
+     font-size:100px;
+     text-align:center;
+ }
+ p {
+     background:darkseagreen;
+     font-size:100px;
+     margin:50px;
+     text-align:center;
+     color:lightcoral;
+ }
+ 
+ #shoe3 {
+  width:350px;
+ }
+ 
+  #shoe5 {
+     width:410px;
+ }
+ 
+  #shoe4 {
+      width:435px;
+  }
